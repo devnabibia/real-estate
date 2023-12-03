@@ -7,7 +7,7 @@ const City = () => {
   return (
     <button className="city topItem">
       <span className="cityText">
-        <FmdGoodIcon/> Blacksburg
+        <FmdGoodIcon/> Nairobi
       </span>
     </button>
   );

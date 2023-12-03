@@ -70,12 +70,12 @@ function ChatScreen() {
     else if (input.toLowerCase() === "price?") {
       if (chatId === "1") {
         response = { sender: "ChatBot",
-        message: "The listing price is $819,000"};
+        message: "The listing price is ksh819,000"};
       }
     }
     else{
         response = { sender: "ChatBot",
-        message: "Sorry I didn't understand that. Ask me 'send pics?', 'eco score?', or 'price?'"};
+        message: "Sorry I didn't understand that. Ask me 'send pics?' or 'price?'"};
     }
 
     // Add the new message to the chat's messages
@@ -97,7 +97,7 @@ function ChatScreen() {
     <div className="bg">
       <div className="chatScreen">
       <div>
-						<h1 className="chattitle">4525 W Benoit Trl, Blacksburg, VA 24060</h1>
+						<h1 className="chattitle">Karen, Hill park Rd </h1>
 					</div>
         <div className="chatScreen__messages" ref={chatContainerRef}>
           {messages.map((message, index) => (
