@@ -2,7 +2,7 @@
   "name": "housify",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pierretran.github.io/housify",
+  "homepage": "https://github.com/devnabibia/real-estate.git",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
